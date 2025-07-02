@@ -242,3 +242,45 @@
     color: #333;
     margin-top: 0;
 }
+/* carding */
+.carding {
+  max-width: 1100px;
+  margin: 20px auto 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;  
+  gap: 50px;              
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.first-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.img-2 {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.text {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+
+
+
