@@ -135,13 +135,71 @@
   border-radius: 30px;
 }
 /* standard curiculam */
-.standard{
-  margin-top: 30px;
+.standard {
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
 
-justify-content: center;
-font-size: 50px;
-font-weight: bold;
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-1, .card-2, .card-3 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-1 {
+  background: linear-gradient(to bottom, #e525f7, white 80%);
+}
+
+.card-2 {
+  background: linear-gradient(to bottom, rgb(68, 23, 23), #ccc 80%);
+}
+
+.card-3 {
+  background: linear-gradient(to bottom, yellow, white 80%);
+}
+
+.card-1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.read-1 {
+  color: blue;
+  font-weight: bolder;
+
+  margin-top: auto;
+}
+.read-2 {
+  color: rgb(202, 202, 6);
+  font-weight: bolder;
+
+  margin-top: auto;
+}
+.read-3 {
+  color: red;
+  font-weight: bolder;
+  
+  margin-top: auto;
 }
