@@ -1,0 +1,147 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-section {
+     max-width: 1100px;
+     margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left img {
+  height: 40px;
+  width: auto;
+}
+
+.center-menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.center-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.school-section{
+     font-size: 32px;
+     font-weight: bold;
+     
+}
+.center-menu li a.home {
+  color: orange ;
+  font-size: 20px;
+  font-weight: 500;
+}
+.center-menu li a.about {
+  color: skyblue ;
+  font-size: 20px;
+  font-weight: 500;
+}
+.center-menu li a.facilities {
+  color:#05D4DF ;
+  font-size: 20px;
+  font-weight: 500;
+}
+.center-menu li a.admission {
+  color: #5D58EF;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Contact-btn {
+  width: 200px;
+  background-color: orange;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+/* hero section */
+.hero-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  gap: 50px;
+  background-color: #fff;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+}
+
+.hero-text h2 span {
+  color: orange;
+}
+
+.hero-text .blue {
+  color: #00bfff;
+}
+
+.hero-text p {
+  margin-top: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.enroll-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-img {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 30px;
+}
+/* standard curiculam */
+.standard{
+  margin-top: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+
+justify-content: center;
+font-size: 50px;
+font-weight: bold;
+}
